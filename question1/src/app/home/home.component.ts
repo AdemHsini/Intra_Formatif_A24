@@ -11,6 +11,6 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class HomeComponent {
 
-  constructor() { }
+  constructor(public router : Router) { }
 
 }
